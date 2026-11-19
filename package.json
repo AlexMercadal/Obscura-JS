@@ -1,0 +1,25 @@
+{
+  "name": "obscura-js-local",
+  "version": "0.1.0",
+  "description": "Adaptación funcional de Obscura a JavaScript/Node.js, con Chrome o Edge como motor",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": "./src/index.js",
+  "bin": { "obscura-js": "./bin/obscura.js" },
+  "scripts": {
+    "start": "node bin/obscura.js",
+    "test": "node --test --test-concurrency=1 test/*.test.js",
+    "check": "node scripts/check.js"
+  },
+  "engines": { "node": ">=22.12.0" },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "commander": "15.1.0",
+    "ipaddr.js": "2.5.0",
+    "proxy-agent": "8.0.3",
+    "puppeteer-core": "25.18.1",
+    "robots-parser": "3.0.1",
+    "turndown": "7.2.5"
+  }
+}

@@ -1,0 +1,8 @@
+Obscura JS: adaptación independiente en JavaScript de las funciones de usuario de Obscura.
+Proyecto de referencia: https://github.com/h4ckf0r0day/obscura
+Revisión de referencia: 8a8a53f0cf129031f9546eab2b40810c30e9b9ef
+Licencia del proyecto de referencia: Apache License 2.0 (incluida en LICENSE).
+
+Esta adaptación utiliza Puppeteer y Chrome/Edge. No incluye ni traduce el motor
+Rust de Obscura y no está afiliada al proyecto original. Las diferencias y la
+cobertura de la adaptación se documentan en README.md y MIGRACION.md.
